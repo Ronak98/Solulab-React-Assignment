@@ -1,0 +1,112 @@
+body {
+  background: #102331;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 650px;
+  height: 100%;
+}
+
+.ticker {
+  width: 60%;
+  height: 110px;
+  background: #172d3e;
+  /* margin: 0 auto; */
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+table th {
+  color: #fff;
+  padding: 4px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+table td {
+  color: #fff;
+  padding: 4px;
+}
+
+.mt-20 table td {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  height: auto;
+  padding: 0 0 2px 0;
+}
+
+.large {
+  font-size: large;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.mt-20 {
+  margin-top: 10px;
+  padding-bottom: 2px;
+  background-color: #172d3e;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.order-header {
+  color: #fff;
+  font-size: 14px;
+}
+
+.order-header h4 {
+  margin: 0;
+  padding: 8px;
+  background-color: #172d3e;
+  border-bottom: 1px solid #fff;
+}
+
+.opacity {
+  opacity: 0.75;
+}
+
+.button {
+  background-color: transparent;
+  background: transparent;
+  color: #fff;
+  border-radius: 12px;
+  padding: 4px 8px;
+  border: 1px solid;
+}
